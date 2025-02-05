@@ -21,10 +21,10 @@ label{
 }
 
 .submit{
-    margin: 15px auto 20px auto; /* top right bottom left */
+    margin: 0 auto 20px auto; /* top right bottom left */
     width: 40%;
     background-color: aqua;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 form{
@@ -37,4 +37,6 @@ form{
 
 .g-recaptcha{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
